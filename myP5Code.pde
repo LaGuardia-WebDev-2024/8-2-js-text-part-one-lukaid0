@@ -1,6 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup(){
   size(600, 400); 
+ 
 }
 
 //🎯Variable Declarations Go Here
@@ -9,7 +10,12 @@ void setup(){
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
   background(255,255,255);
-  
+  fill(0,0,0)
+  textSize(70)
+  text ("favorite foods", 130,50);
+  text ("-steak",130,100);
+  text ("-rice" ,130,150);
+  text ("-chicken" ,130,200);
   if(mousePressed){
     showXYPositions();
   }
